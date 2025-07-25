@@ -1,11 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>faugei</title>
+    <style>
+      * {
+        background-color: #f5f8ff;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="p-4 mx-auto md:mx-20">
+      <div class="max-w-7xl mx-auto flex items-center justify-between">
+        <div class="">
+          <a href="" class="">
+            <img src="assets/logo.png" alt="faugei" />
+          </a>
+        </div>
+
+        <div class="hidden md:flex items-center space-x-6 text-bold">
+          <a href="" class="text-black">Home</a>
+          <a href="" class="text-gray-400">Shop</a>
+          <a href="" class="text-gray-400">About Us</a>
+          <a href="" class="text-black">Cart ($56)</a>
+        </div>
+
+        <div class="md:hidden">
+          <a href="" class="text-gray-700 text-2xl">Cart ($56)</a>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Banner Start  -->
+    <section
+      class="w-full max-w-[1140px] h-auto md:h-[461px] mx-auto md:mx-auto px-6 md:px-12 py-10 md:py-0"
+    >
+      <div class="flex flex-col-reverse md:flex-row items-center h-full">
+        <div class="md:w-1/2 text-center md:text-left mt-8 md:mt-0">
+          <h1
+            class="text-4xl md:text-5xl font-bold text-gray-800 leading-tight mb-4"
+          >
+            Always
+            <span style="color: #e95a08">Fresh <br />Flower</span>
+          </h1>
+          <p class="text-gray-500">
+            Indulge your senses with the beauty and fragrance of our fresh
+            flower shop. From classic roses to exotic blooms, we offer a wide
+            variety of fresh.
+          </p>
+        </div>
+
+        <div class="md:w-1/2 flex justify-center">
+          <img
+            src="assets/hero-flower.png"
+            alt="Flower"
+            class="w-full max-w-[300px] md:max-w-[400px] h-auto object-contain"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Banner End  -->
+  </body>
 </html>
